@@ -1,0 +1,57 @@
+body {
+  background-color: grey;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  padding: 15px;
+  margin: 20px;
+  margin-left: 10%;
+  margin-left: 10%;
+  font-weight:bold;
+  border-radius: 10px;
+  border: 30px solid purple;
+  background-color: white;
+  height: 900px;
+}
+
+#title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 3rem;
+  color: black;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+#name,#email,#number,#dropdown,#textarea {
+  border: 0.7px solid black;
+}
+
+#name-label,#email-label,#number-label,#branch,#place,#year,#comment,#name,#email,#number,#dropdown,#radio,#checkbox,#textarea {
+  margin-top: 10px;
+}
+
+#textarea {
+  height: 100px;
+}
+
+#submit {
+  margin-top: 25px;
+  width: 150px;
+  height: 50px;
+  border-radius: 55px;
+  border: 1px;
+  background-color: #ff1955;
+  color: white;
+  font-size: 20px;
+}
