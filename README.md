@@ -11,7 +11,7 @@
 
 ## Output :
 - Project-1 - [Click Here](https://mandivson.github.io/Responsive-Web-Design-Projects/Project%201/index.html)
-- Project-2 -
+- Project-2 - [Click Here](https://mandivson.github.io/Responsive-Web-Design-Projects/Project%202/index.html)
 - Project-3 - 
 - Project-4 - 
 - Project-5 - 
