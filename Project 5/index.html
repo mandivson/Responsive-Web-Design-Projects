@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manish Ranjan Portfolio website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+	<link href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<div class="topnav" id="navbar">
+  		<a href="#home" class="active">Home</a>
+  		<a href="#projects">Projects</a>
+  		<a href="#contact">Contact</a>
+  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    		<i class="fa fa-bars"></i>
+  		</a>
+	</div>
+	<!-- Introduction -->
+
+	<section class="intro" id="welcome-section">
+		<h1 class="section__title section__title--intro">
+			Hi, I am <strong>Manish Ranjan</strong>
+		</h1>
+		<p class="section__subtitle section__subtitle--intro">front-end-dev</p>
+		<img src="manish1.jpeg" alt="a picture of me smiling" class="intro__img">
+	</section>
+
+	<!-- My Services -->
+
+	<section class="my-projects" id="projects">
+		<h2 class="project__title project__title--services">What I do</h2>
+		<div class="services">
+			<div class="project-tile">
+				<br>
+				<h3>Design + Development</h3>
+				<p>I am a Front-end developer with skills in HTML, CSS, Bootstrap, JavaScript.I am also proficient in C, C++, Java and good at Data Structures and Algorithms.</p>
+			</div>  <!-- / service -->
+
+			<div class="project-tile">
+				<br>
+				<h3>Competitive coding</h3>
+				<p>Apart from development, I also love to participate in coding challenges on various competitive programming platforms.
+				I practice and compete on platforms like Hackerrank, Hackerearth, Codechef, Codeforces and Geeksforgeeks.</p>
+			</div>  <!-- / service -->
+
+			<div class="project-tile">
+				<br>
+				<h3>Travel</h3>
+				<p>I am a great travel enthusiast and I love to visit new and exciting places.I also have a dream to visit various tourist spots all around the world.</p>
+			</div>  <!-- / service -->
+		</div>  <!-- / services -->
+		<a href="https://mandivson.github.io/Responsive-Web-Design-Projects/Project%203/index.html#home" class="btn" target="_blank">My Work</a>
+	</section>
+	
+	<!-- Footer -->
+
+	<footer class="footer" id="contact">
+		<!-- replace with ur own e-mail address -->
+		<a href="mailto:manishranjan2606@gmail.com" class="footer__link">manishranjan2606@gmail.com</a>
+		<br>
+		<br>
+		<a href="tel:+919014778537" class="footer__link">+91 9014778537</a>
+		<ul class="social-list">
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://www.facebook.com/profile.php?id=100027307784074">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://www.instagram.com/iam____manish/">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://www.linkedin.com/in/manishranjan2606/">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://github.com/mandivson">
+					<i class="fab fa-github"></i>
+				</a>
+			</li>
+		</ul>
+
+		<div class="text-center text-muted">
+			<p class="copyrights">&copy; Manish Ranjan. All rights reserved 2020</p>
+		</div>
+	</footer>
+
+	<script>
+		function myFunction() {
+  		var x = document.getElementById("navbar");
+  		if (x.className === "topnav") {
+    		x.className += " responsive";
+  		} else {
+    	x.className = "topnav";
+  		}
+	}
+	</script>
+
+
+</body>
+</html>
