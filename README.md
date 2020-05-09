@@ -1,6 +1,6 @@
 # Responsive-Web-Design-Projects
 
-###### This repository contains all of the source code releated to Responsive-Web-Design projects in FREECODECAMP.
+###### This repository contains all of the source code of Responsive-Web-Design projects in FREECODECAMP.
 
 ![](Certificate/Certificate.PNG)
 
